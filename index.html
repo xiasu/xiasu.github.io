@@ -1,216 +1,496 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <title>Xia Su's Homepage</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog Template">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="brain.ico">
-    
-    <!-- FontAwesome JS-->
-    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-7.css">
+<html>
 
-</head> 
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Xia Su's Homepage</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="icon" href="images/icon.png" type="image/ico"/>
+</head>
 
 <body>
-    
-    <header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Xia Su  苏夏</a></h1>
-        
-	    <nav class="navbar navbar-expand-lg navbar-dark" >
-           
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <div class="navbar-collapse" id="">
 
-			<div id="navigation" class="collapse navbar-collapse flex-column" >
-				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/xia.png" alt="image" >
-					
-					<div class="bio mb-3">PhD student @ Paul G. Allen School of Computer Science, Univeristy of Washington.
-						</div><!--//bio-->
-					<ul class="social-list list-inline py-3 mx-auto">
-			            <li class="list-inline-item"><a href="https://twitter.com/XiaSu09"><i class="fab fa-twitter fa-fw"></i></a></li>
-						<li class="list-inline-item"><a href="https://scholar.google.com/citations?user=T6A8iH0AAAAJ&hl=zh-CN&oi=ao"><i class="fas fa-graduation-cap"></i></a></li>
-						<li class="list-inline-item"><a href="mailto:xiasu@cs.washington.edu"><i class="fas fa-at"></i></a></li>
-						<li class="list-inline-item"><a href="assets/pdfs/Xia_Su_Resume.pdf"><i class="fas fa-user-circle"></i></a></li>
-			        </ul><!--//social-list-->
-			        <hr> 
-				</div><!--//profile-section-->
-				<!--<ul class="navbar-nav flex-column text-left">
-					<li class="nav-item">
-					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home </a>
-					</li>
-					<li class="nav-item active">
-					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Works</a>
-					</li>
-					<li class="nav-item">
-					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
-					</li>
-				</ul>-->
-			</div>
-		</nav>
+
+
+
+          </div>
+        </nav>
+      </div>
     </header>
-    
-    <div class="main-wrapper">
-	    <section class="cta-section theme-bg-light py-5">
-		    <div class="container text-left">
-			    <h2 class="heading">About Me and My Research</h2>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 offset-md-1">
+            <div class="detail-box">
+              <h1>
+                <span> Hello!</span> <br>
+                I'm <br>
+                Xia Su
+              </h1>
+              <p>
+                2nd year PhD student in UW CSE.<br>
+                Advised by <a href="https://jonfroehlich.github.io/">Prof. Jon Froehlich</a> at
+                the <a href="https://makeabilitylab.cs.washington.edu/">Makeability Lab</a>
+              </p>
+              <div class="btn-box">
+                <a href="mailto:xiasu@cs.washington.edu" class="">
+                  Email
+                </a>
+                <a href="https://twitter.com/XiaSu09" class="">
+                  Twitter
+                </a>
+                <a href="https://scholar.google.com/citations?user=T6A8iH0AAAAJ&hl=zh-CN&oi=ao" class="">
+                  Google Scholar
+                </a>
+              </div>
 
-			    <!--<form class="signup-form form-inline justify-content-center pt-3">
-                    <div class="form-group">
-                        <label class="sr-only" for="semail">Your email</label>
-                        <input type="email" id="semail" name="semail1" class="form-control mr-md-1 semail" placeholder="Enter email">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>-->
-		    </div><!--//container-->
-			<div class="container text-left">
-			    <div class="intro"><br>Hi! I'm Xia Su, a 2nd year PhD student in computer science @
-					Paul G. Allen School of Computer Science, Univeristy of Washington.
-					My research interest lies in Human Computer Interaction, with special focus on
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding-bottom">
+    <div class="square-box">
+      <img src="images/square.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/me2.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Me & My Research
+              </h2>
+            </div>
+            <p>
+              My research interest lies in Human Computer Interaction, with special focus on Augemented Reality,
 					creativity support and accessibility.<br><br>
-					I see huge potential in the future of creativity support with the recent development of AI,
-					while also realizing the challenges that different groups and communities are facing when trying
-					to achieve creativity. I hope to erase these challenges with my research.<br><br>
-					I'm supervised by <a href="https://jonfroehlich.github.io/">Prof. Jon Froehlich</a>
-					at the <a href="https://makeabilitylab.cs.washington.edu/">Makeability Lab</a>.<br><br>
-					Prior to my current program, I received bachelor and master degree from School of Architecture, Tsinghua Univerity.
+					I’m currently building interactive interfaces and systems (especially in AR) that assists people sense and modify their
+indoor spaces, in order to create a more accessible world for everyone. I also envision huge opportunity of
+creativity and productivity in physical spaces, and hope to develop context aware technologies to enable and enlighten people. <br><br>
+            </p>
+            <a href="Other%20Resources/Xia_Su_Resume_2022.pdf">
+              CV
+            </a>
+            <a href="https://makeabilitylab.cs.washington.edu/member/xiasu/">
+              Lab Page
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				</div>
+  <!-- end about section -->
+   <!-- Project section -->
 
-		    </div>
-	    </section>
-	    <section class="blog-list px-3 py-5 p-md-5">
-		    <div class="container">
-				<h2 class="heading">Publications</h2>
-				<div class="meta mb-1">The papers below include work from my MS studies at Tsinghua University.
-					<br/><br/>  <br/> </div>
-				<div class="item mb-5">
-					<div class="media">
-						<!--img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image"-->
-					    <div class="media-body">
-						    <h4 class="title mb-1">Towards Semi-automatic Detection and Localization of Indoor Accessibility Issues using Mobile Depth Scanning and Computer Vision</h4>
-						    <div class="meta mb-1"><span class="date">Accepted in Sep 2022</span>
-								<span class="date">Xia Su, Kaiming Cheng, Han Zhang, Jaewook Lee, Yueqian Zhang, Jon E. Froehlich</span>
-								<span class="date">The 1st ASSETS'22 workshop on THE FUTURE OF URBAN ACCESSIBILITY : UrbanAccess'22</span>
-							</div>
+  <section class="sale_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Recent Projects
+        </h2>
+        <p>
+          Here are some recent projects I lead/participate in UW CSE
+        </p>
+      </div>
+      <div class="sale_container">
+          <!-- Single Project -->
+        <div class="box">
+          <div class="img-box">
+            <img src="Gallery/RASSAR.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              <a href="https://makeabilitylab.cs.washington.edu/project/rassar/">RASSAR : Room Accessibility and Safety Scan in Augmented Reality</a>
+            </h6>
+            <p>
+              May 2022 - Now, at UW CSE
+            </p>
+          </div>
+        </div>
+        <!-- end Single Project -->
+        <!-- Single Project -->
+        <div class="box">
+          <div class="img-box">
+            <img src="Gallery/Kinergy.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              <a href="https://makeabilitylab.cs.washington.edu/project/kinergy/">Kinergy : Designing 3D Printable Motions</a>
+            </h6>
+            <p>
+              Feb 2020 - Apr 2022, at UW CSE
+            </p>
+          </div>
+        </div>
+        <!-- end Single Project -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end Project section -->
+
+<!-- Publication section -->
+
+  <section class="sale_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Selected Publication
+        </h2>
+        <p>
+          Here are some recent publication produced by projects I lead/participate in UW CSE and Tsinghua
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Single Pub -->
+  <section class="deal_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h4>
+                Towards Semi-automatic Detection and Localization of Indoor Accessibility Issues using Mobile Depth Scanning and Computer Vision
+              </h4>
+            </div>
+            <p>
+              We introduce RASSAR (Room Accessibility and Safety Scanning in Augmented Reality), a new proof-of-concept prototype
+              for semi-automatically identifying, categorizing, and localizing indoor accessibility and safety issues using LiDAR +
+              camera data, machine learning, and AR. We present an overview of the current RASSAR prototype and a preliminary evaluation in a single home.
+            </p>
+            <a href="Pub%20Resources/RASSAR/RASSAR.pdf">
+              PDF
+            </a>
+            <a href="https://arxiv.org/abs/2210.02533">
+              DOI
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="box b1">
+              <img src="Pub Resources/RASSAR/RASSAR%202.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Single Pub section -->
+<!-- Single Pub -->
+  <section class="deal_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h4>
+              Kinergy: Creating 3D Printable Motion using Embedded Kinetic Energy
+              </h4>
+            </div>
+            <p>
+              We present Kinergy—an interactive design tool for creating self propelled motion by harnessing the energy stored in 3D printable springs.
+              Kinergy allows the user to create motion-enabled 3D models by embedding kinetic units, customize output motion characteristics by
+              parameterizing embedded springs and kinematic elements, control energy by operating the specialized lock, and preview the resulting
+              motion in an interactive environment.
+            </p>
+            <a href="Pub%20Resources/Kinergy/He_KinergyCreating3DPrintableMotionUsingEmbeddedKineticEnergy_UIST2022.pdf">
+              PDF
+            </a>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="box b1">
+              <img src="Pub%20Resources/Kinergy/Collage.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Single Pub section -->
+<!-- Single Pub -->
+  <section class="deal_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h4>
+                Interior Layout Generation Based on Scene Graph and Graph Generation Model
+              </h4>
+            </div>
+            <p>
+              we
+present an exploration work of automating interior layout design. We put
+forward a set of representation rules which turn interior scene photos into
+structuralized scene graphs. With representation rule containing both categorial
+and spatial information, we establish an interior scene graph dataset
+by annotating well-designed interior scene pictures downloaded from online
+photo sharing sites. Using the interior scene dataset which contains over 400
+valid interior scene graphs, we train a graph generative model and further
+render its output as reconstructed scenes.
+            </p>
+            <a href="Pub%20Resources/DCC/InteriorLayoutGenerationBasedonSceneGraphandGraphGenerationModel.pdf">
+              PDF
+            </a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-90625-2_15">
+              DOI
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="box b1">
+              <img src="Pub%20Resources/DCC/DCC%201.png" alt="">
+            </div>
+            <div class="box b1">
+              <img src="Pub%20Resources/DCC/DCC%202.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Single Pub section -->
+<!-- Single Pub -->
+  <section class="deal_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h4>
+                Category, process, and recommendation of design in an interactive evolutionary computation interior design experiment: a data-driven study
+              </h4>
+            </div>
+            <p>
+              We introduce an interactive evolutionary
+computation (IEC) design experiment that deals with a simplified interior design task and
+has already been tested on 230 subjects. Using the data gathered during the experiment, we
+conduct data analysis and visualization involving methods including Holistic color interval
+and K-means clustering to show categories and processes in design. Additionally, we train
+a content-based recommendation system with experiment data to capture user preference
+and make the IEC system more efficient and intelligent.
+            </p>
+            <a href="Pub%20Resources/AIEDAM/category_process_and_recommendation_of_design_in_an_interactive_evolutionary_computation_interior_design_experiment_a_datadriven_study.pdf">
+              PDF
+            </a>
+            <a href="https://www.cambridge.org/core/journals/ai-edam/article/category-process-and-recommendation-of-design-in-an-interactive-evolutionary-computation-interior-design-experiment-a-datadriven-study/D0B91F764D39416098FBA2FD222A0EBE">
+              DOI
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="box b1">
+              <img src="Pub%20Resources/AIEDAM/AIEDAM%202.png" alt="">
+            </div>
+            <div class="box b1">
+              <img src="Pub%20Resources/AIEDAM/AIEDAM%203.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Single Pub section -->
+<!-- Single Pub -->
+  <section class="deal_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h4>
+                A data structure for studying 3D modeling design behavior based on event logs
+              </h4>
+            </div>
+            <p>
+              In this study, new data structure of command-object
+graph retrieved from 3D modeling event logs was proposed. It reflects the cause-and-effect relationship between
+commands and objects to accommodate 3D modeling process. A case study was conducted on 110 students'
+event logs generated from solving a well-defined façade model. As result: an average trial-and-error ratio
+was calculated at 0.3357 based on original and simplified graphs. Four main types of ‘modeling bubble’ were
+summarized base on unit-tag graphs. Key commands were found by graph centrality. Auto-prediction of samegroup
+objects was developed with mis-group rate less than 0.9%.
+            </p>
+            <a href="Pub%20Resources/AIC/AIC.pdf">
+              PDF
+            </a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0926580521004180">
+              DOI
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <div class="box b1">
+              <img src="Pub%20Resources/AIC/AIC%201.png" alt="">
+            </div>
+            <div class="box b1">
+              <img src="Pub%20Resources/AIC/AIC%202.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Single Pub section -->
+  <!-- end Pub section -->
 
 
-					    	</div><!--//media-body-->
-						</div><!--//media-->
-							<a href="assets/pdfs/RASSAR UrbanAccess2022.pdf"><i class="fas fa-file-pdf"></i></a>
-			    </div><!--//item-->
-				<div class="item mb-5">
-					<div class="media">
-						<!--img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image"-->
-					    <div class="media-body">
-						    <h4 class="title mb-1">Kinergy: Creating 3D Printable Motion Using Embedded Kinetic Energy</h4>
-						    <div class="meta mb-1"><span class="date">Accepted in August 2022</span>
-								<span class="date">Liang He, Xia Su, Huaishu Peng, Jeffery I. Lipton, Jon E. Froehlich</span>
-								<span class="date">UIST 2022</span>
-							</div>
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              How to Find Me
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location.png" width="18px" alt="">
+              </div>
+              <p>
+                185 E Stevens Way NE, Seattle, WA 98195
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/mail.png" width="18px" alt="">
+              </div>
+              <p>
+                xiasu@cs.washington.edu
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              TLDR for Me
+            </h5>
+            <p>
+              HCI PhD student in UW CSE. Does AR+Accessibility+Creativity research
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              Useful Links
+            </h5>
+            <ul>
+              <li>
+                <a href="https://makeabilitylab.cs.washington.edu/">
+                  Makeability Lab
+                </a>
+              </li>
+              <li>
+                <a href="https://makeabilitylab.cs.washington.edu/project/rassar/">
+                  RASSAR Project Page
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Social Media
+            </h5>
+            <div class="social_box">
+              <a href="https://www.facebook.com/xia.su.148">
+                <img src="images/fb.png" alt="">
+              </a>
+              <a href="https://twitter.com/XiaSu09">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="https://www.linkedin.com/in/xia-su-48a5a4221/">
+                <img src="images/linkedin.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
 
 
-					    	</div><!--//media-body-->
-						</div><!--//media-->
-							<a href="https://makeabilitylab.cs.washington.edu/media/publications/He_KinergyCreating3DPrintableMotionUsingEmbeddedKineticEnergy_UIST2022.pdf"><i class="fas fa-link"></i></a>
-			    </div><!--//item-->
-			    <div class="item mb-5">
-					<div class="media">
-						<!--img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image"-->
-					    <div class="media-body">
-						    <h4 class="title mb-1">Category, process, and recommendation of design in an interactive evolutionary computation interior design experiment: a data-driven study</h4>
-						    <div class="meta mb-1"><span class="date">Published in May 2020</span>
-								<span class="date">Weixin Huang, Xia Su, Mingbo Wu, Lijing Yang</span>
-								<span class="date">Artificial Intelligence for Engineering Design, Analysis and Manufacturing: AIEDAM</span>
-							</div>
+  <!-- footer section -->
+  <section class="container-fluid footer_section ">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> Xia Su built this website in 2022</a>
+      </p>
+    </div>
+  </section>
+  <!-- end  footer section -->
 
 
-					    	</div><!--//media-body-->
-						</div><!--//media-->
-							<a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D0B91F764D39416098FBA2FD222A0EBE/S0890060420000050a.pdf/category_process_and_recommendation_of_design_in_an_interactive_evolutionary_computation_interior_design_experiment_a_datadriven_study.pdf"><i class="fas fa-link"></i></a>
-			    </div><!--//item-->
-				<div class="item mb-5">
-					<div class="media">
-						<!--img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image"-->
-					    <div class="media-body">
-						    <h4 class="title mb-1">Interior Layout Generation Based on Scene Graph and Graph Generation Model</h4>
-						    <div class="meta mb-1"><span class="date">Published in Dec 2020</span>
-								<span class="date">Xia Su, Chenglin Wu, Wen Gao, Weixin Huang</span>
-								<span class="date">Design Computing and Cognition 2020</span>
-							</div>
-					    	</div><!--//media-body-->
-						</div><!--//media-->
-					<a href="https://www.researchgate.net/profile/Xia-Su-3/publication/341440900_Interior_Layout_Generation_Based_on_Scene_Graph_and_Graph_Generation_Model/links/5ec0b8c2458515626cacdd24/Interior-Layout-Generation-Based-on-Scene-Graph-and-Graph-Generation-Model.pdf"><i class="fas fa-file-pdf"></i></a>
-					<a href="http://dccconferences.org/dcc20/index.html"><i class="fas fa-link"></i></a>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
-			    </div><!--//item-->
-
-				<div class="item mb-5">
-					<div class="media">
-						<!--<img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image">-->
-					    <div class="media-body">
-						    <h4 class="title mb-1">A data structure for studying 3D modeling design behavior based on event logs</h4>
-						    <div class="meta mb-1"><span class="date">Published in Oct 2021</span>
-								<span class="date">Wen Gao, Chenglin Wu, Weixin Huang, Borong Lin, Xia Su</span>
-								<span class="date">Automation in Construction</span>
-							</div>
-
-
-					    	</div><!--//media-body-->
-						</div><!--//media-->
-					<a href="https://www.sciencedirect.com/science/article/pii/S0926580521004180"><i class="fas fa-link"></i></a>
-			    </div><!--//item-->
-				<div class="item mb-5">
-					<div class="media">
-						<!--img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-3.jpg" alt="image"-->
-					    <div class="media-body">
-						    <h4 class="title mb-1">Investigating Site Survey Process with Protocol Analysis and an Extended FBS Framework</h4>
-						    <div class="meta mb-1"><span class="date">Published in Aug 2020</span>
-								<span class="date">Luo, Yue, Liang, Manchen, Gao, Letong, Zhang, Yuchun, Wang, Chenxi, Su, Xia and Huang, Weixin.</span>
-								<span class="date">Proceedings of the 25th CAADRIA Conference</span>
-							</div>
-
-
-					    	</div><!--//media-body-->
-						</div><!--//media-->
-					<a href="assets/pdfs/caadria2020_178.pdf"><i class="fas fa-file-pdf"></i></a>
-							<a href="http://papers.cumincad.org/data/works/att/caadria2020_178.pdf"><i class="fas fa-link"></i></a>
-			    </div><!--//item-->
-
-			    
-
-				
-		    </div>
-	    </section>
-	    
-	    <footer class="footer text-center py-2 theme-bg-dark">
-		   
-	        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-
-			<small class="copyright">Designed by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-		   
-	    </footer>
-    
-    </div><!--//main-wrapper-->
-       
-    <!-- Javascript -->          
-    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script src="assets/plugins/popper.min.js"></script> 
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <script src="assets/js/demo/style-switcher.js"></script>     
-    
 
 </body>
-</html> 
 
+</html>

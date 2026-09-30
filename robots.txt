@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xiasu.github.io/sitemap.xml

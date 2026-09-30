@@ -1,0 +1,81 @@
+{
+  "name": "Xia Su",
+  "updated": "September 2026",
+  "email": "xiasu@cs.washington.edu",
+  "website": "https://xiasu.github.io",
+  "scholar": "https://scholar.google.com/citations?user=T6A8iH0AAAAJ",
+  "tagline": "AI that bridges people and spaces.",
+  "profile": "I study how AI can help people understand, navigate, and shape the spaces around them. My work connects architecture, human-computer interaction, accessibility, and computer vision. At Google, I explore how vision algorithms and AI agents can work across devices and the cloud to understand environments, human behavior, and the relationships between them.",
+  "experience": [
+    {
+      "organization": "Google",
+      "role": "Software Engineer",
+      "dates": "Aug 2026 - Present",
+      "focus": "Computer vision and spatial AI",
+      "bullets": [
+        "Research collaborative on-device and cloud deployment of computer vision algorithms and AI agents under resource constraints.",
+        "Explore multi-level understanding of spaces and human behavior, connecting environmental context with how people interact with their surroundings.",
+        "Investigate context-sensitive safety-risk alerts that respond to user needs and available computational resources."
+      ]
+    },
+    {"organization": "University of Washington", "role": "Graduate Research Assistant / Teaching Assistant", "dates": "Sep 2021 - Aug 2026"},
+    {"organization": "Apple AIML", "role": "Machine Learning Intern", "dates": "Apr - Sep 2025"},
+    {"organization": "Adobe Research", "role": "Research Scientist Intern", "dates": "Jun - Sep 2024; Jun - Sep 2023"},
+    {"organization": "Microsoft Research Asia", "role": "Research Intern", "dates": "Jun 2020 - Mar 2021"}
+  ],
+  "education": [
+    {"institution": "University of Washington", "dates": "2021 - 2026", "detail": "Doctoral research, Computer Science & Engineering; dissertation defended Aug 2026.<br/>M.S., Computer Science & Engineering, 2024. Advisor: Jon E. Froehlich."},
+    {"institution": "Tsinghua University", "dates": "2014 - 2021", "detail": "Bachelor of Architecture, 2014 - 2018; master's degree, 2018 - 2021.<br/>Research in architecture, computational design, and indoor scene generation."}
+  ],
+  "skills": [
+    ["Vision & spatial computing", "Dense prediction and segmentation; visual SLAM; structure from motion; 3D reconstruction and scene synthesis; mobile AR; CAD and fabrication."],
+    ["AI & agent systems", "PyTorch; transformers and ViTs; SFT, PEFT, and GRPO; RAG; agent workflows; LangGraph; Model Context Protocol; custom objectives and evaluation."],
+    ["Systems & interaction", "Full-stack web development; cross-platform mobile/AR applications; robotics and embedded integration; real-time graphics; UI/UX design."],
+    ["Research & evaluation", "Benchmark and dataset design; data curation; quantitative and qualitative analysis; human-centered AI; user studies and statistical analysis."]
+  ],
+  "papers": [
+    {"title": "CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation", "authors": "Xia Su, Ruiqi Chen, Benlin Liu, Jingwei Ma, Zonglin Di, Ranjay Krishna, Jon E. Froehlich", "venue": "CVPR 2026", "url": "https://arxiv.org/abs/2602.18424"},
+    {"title": "DepthScape: Authoring 2.5D Designs via Depth Estimation, Semantic Understanding, and Geometry Extraction", "authors": "Xia Su, Cuong Nguyen, Matheus A. Gadelha, Jon E. Froehlich", "venue": "DIS 2026", "url": "https://arxiv.org/abs/2512.02263"},
+    {"title": "FlyMeThrough: Human-AI Collaborative 3D Indoor Mapping with Commodity Drones", "authors": "Xia Su, Ruiqi Chen, Jingwei Ma, Chu Li, Jon E. Froehlich", "venue": "UIST 2025", "url": "https://doi.org/10.1145/3746059.3747777"},
+    {"title": "AccessibilityScout: Personalized Accessibility Scans of Built Environments", "authors": "William Huang, Xia Su, Jon E. Froehlich, Yang Zhang", "venue": "UIST 2025", "url": "https://doi.org/10.1145/3746059.3747624"},
+    {"title": "SonifyAR: Context-aware Sound Generation in Augmented Reality", "authors": "Xia Su, Jon E. Froehlich, Eunyee Koh, Chang Xiao", "venue": "UIST 2024", "url": "https://doi.org/10.1145/3654777.3676406"},
+    {"title": "RASSAR: Room Accessibility and Safety Scanning in Augmented Reality", "authors": "Xia Su, Han Zhang, Kaiming Cheng, Jaewook Lee, Qiaochu Liu, Wyatt Olson, Jon E. Froehlich", "venue": "CHI 2024", "url": "https://doi.org/10.1145/3613904.3642140"},
+    {"title": "Kinergy: Creating 3D Printable Motion using Embedded Kinetic Energy", "authors": "Liang He, Xia Su, Huaishu Peng, Jeffrey I. Lipton, Jon E. Froehlich", "venue": "UIST 2022", "url": "https://doi.org/10.1145/3526113.3545636"},
+    {"title": "Interior Layout Generation Based on Scene Graph and Graph Generation Model", "authors": "Xia Su, Chenglin Wu, Wen Gao, Weixin Huang", "venue": "Design Computing and Cognition '20, pp. 267-282", "url": "https://doi.org/10.1007/978-3-030-90625-2_15"}
+  ],
+  "posters": [
+    {"title": "Authoring 2.5D Designs with Depth Estimation", "authors": "Xia Su, Cuong Nguyen, Matheus A. Gadelha, Yu Shen, Stefano Petrangeli, Jon E. Froehlich", "venue": "CHI 2025 Late-Breaking Work", "url": "https://doi.org/10.1145/3706599.3719727"},
+    {"title": "A Demo of DIAM: Drone-based Indoor Accessibility Mapping", "authors": "Xia Su, Ruiqi Chen, Weiye Zhang, Jingwei Ma, Jon E. Froehlich", "venue": "UIST 2024 Demo", "url": "https://makeabilitylab.cs.washington.edu/media/publications/Su_ADemoOfDiamDroneBasedIndoorAccessibilityMapping_UIST2024.pdf"},
+    {"title": "RAIS: Towards A Robotic Mapping and Assessment Tool for Indoor Accessibility Using Commodity Hardware", "authors": "Xia Su, Daniel Campos Zamora, Jon E. Froehlich", "venue": "ASSETS 2024 Poster", "url": "https://makeabilitylab.cs.washington.edu/media/publications/Su_RaisTowardsARoboticMappingAndAssessmentToolForIndoorAccessibilityUsingCommodityHardware_ASSETS2024.pdf"}
+  ],
+  "patents": [
+    {"title": "Context-aware Audio Data Acquisition", "detail": "Chang Xiao, Xia Su, Eunyee Koh. Adobe Inc.<br/>Published patent application US20260023522A1, Jan 22, 2026.", "url": "https://patents.google.com/patent/US20260023522A1/en"},
+    {"title": "FlyMeThrough: Human-AI Collaborative 3D Indoor Mapping with Commodity Drones", "detail": "Xia Su, Ruiqi Chen, Jon E. Froehlich. UW CoMotion."},
+    {"title": "Authoring 2.5D Designs with Depth Estimation", "detail": "Xia Su, Cuong Nguyen, Matheus A. Gadelha, Yu Shen, Stefano Petrangeli.<br/>Adobe Research."}
+  ],
+  "service": [
+    "Reviewer: CHI 2024, CHI 2024 Late-Breaking Work, SUI 2024, UIST 2024, CHI 2025, CHI 2026.",
+    "Reviewer: IEEE International Conference on Robotics and Automation (ICRA), 2025."
+  ],
+  "talks": [
+    {"title": "Using augmented reality to improve accessibility", "context": "Oregon Public Broadcasting", "date": "Nov 17, 2023", "url": "https://www.opb.org/article/2023/11/17/university-of-washington-augmented-reality-accessibility/"},
+    {"title": "RASSAR: Room Accessibility and Safety Scanning in Augmented Reality", "context": "UW CSE Colloquium", "date": "Nov 2, 2023"},
+    {"title": "AR for Accessibility and Creativity", "context": "Brown HCI Lab", "date": "Oct 26, 2023"},
+    {"title": "Q&A: Researchers aim to improve accessibility with augmented reality", "context": "UW News", "date": "Oct 17, 2023", "url": "https://www.washington.edu/news/2023/10/17/accessibility-augmented-virtual-reality/"},
+    {"title": "Evaluating Real-world Accessibility", "context": "Igarashi Lab, University of Tokyo", "date": "May 14, 2023"}
+  ],
+  "teaching": [
+    "Teaching assistant, UW CSE 442: Data Visualization.",
+    "Teaching assistant, UW MHCID: Prototyping Studio.",
+    "Teaching assistant, UW CSE 412: Introduction to Data Visualization for non-CSE majors.",
+    "Teaching assistant, UW CSE 160: Data Programming.",
+    "Guest lecturer, UW CSEP 590B: The Future of Access Technology, Winter 2023.",
+    "Guest lecturer, UW CSE 493E: The Future of Access Technology, Fall 2023 and Fall 2024."
+  ],
+  "mentoring": [
+    "Ruiqi (Richard) Chen, master's student, University of Washington; began May 2024.",
+    "Weiye Zhang, undergraduate, University of Washington; began Mar 2024.",
+    "Qiaochu (Steve) Liu, master's student, Tsinghua University; Dec 2022 - May 2023.",
+    "Jackson Ma, undergraduate, University of Washington; Oct 2022 - Feb 2023."
+  ]
+}
